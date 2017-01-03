@@ -1,0 +1,141 @@
+.row {
+  min-height: 80px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.btn_green{
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #78c600;
+    margin-bottom: 20px;
+    border-radius: 500px;
+    padding: 15px 60px;
+    transition: 0.25s;
+
+}
+.btn_green:hover{
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
+}
+
+.separator{
+    background-color: #78c600;
+    width: 30px;
+    height: 5px;
+    transform: rotate(60deg);
+    float: right;
+}
+
+
+h1{
+    text-align: left;
+    float: left;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: 'Yeseva One', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 120px;
+}
+
+p{
+    margin-top: 170px;
+    margin-bottom: 15px;
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+
+.header_slide{
+    background: url(../images/white-home-slide2.jpg) bottom center no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.about{
+    background: #fff;
+    height: 100vh;
+}
+
+.portfolio1{
+    background: url(../images/slider_bg.jpg);
+    margin-top: 120px;
+    min-height: 200px;
+    width: 762px;
+    margin-left: 25px;
+}
+
+.portfolio2{
+    background: url(../images/slider_bg.jpg);
+    margin-top: 25px;
+    min-height: 200px;
+    margin-left: 25px;
+}
+
+
+.portfolio3{
+    background: url(../images/slider_bg.jpg);
+    margin-top: 25px;
+    min-height: 200px;
+    margin-left: 25px;
+}
+
+.slide_text{
+    color: #000;
+    margin-top: 31vh;
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Yeseva One', cursive;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.menubg{
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+    min-height: 80px;
+    padding-top: 6px;
+
+
+}
+.white {
+     background: url(../images/logo_white.svg) center no-repeat;
+    float: left;
+    display: inline-block;
+    width: 120px;
+    min-height: 70px;
+}
+.black {
+     background: url(../images/logo_black.svg) center no-repeat;
+    float: left;
+    display: inline-block;
+    width: 120px;
+    min-height: 70px;
+}
+
+.startLogo {
+  position: fixed;
+}
+
+.altLogo {
+  position: absolute;
+}
+
+logo_white{
+    background: url(../images/logo_white.svg) center no-repeat;
+    float: left;
+    display: inline-block;
+    position: fixed;
+    width: 120px;
+    min-height: 70px;
+}
